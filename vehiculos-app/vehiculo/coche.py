@@ -9,8 +9,7 @@ class Coche(Vehiculo):
     #    return f"{super().descripcion()} - {self.puertas} puertas"
 
     def descripcion(self):
-        base = super().descripcion()
-        return f"Coche: {base} ({self.puertas} puertas)"
+        return f"[COCHE] Marca: {self.marca} | Modelo: {self.modelo} | Puertas: {self.num_puertas}"
 
 
 
