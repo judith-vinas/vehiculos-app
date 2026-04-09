@@ -10,6 +10,7 @@ class Coche(Vehiculo):
 
     def descripcion(self):
         base = super().descripcion()
-        return f"[COCHE] {base} | Puertas: {self.puertas}"
+        return f"Coche: {base} ({self.puertas} puertas)"
+
 
 
